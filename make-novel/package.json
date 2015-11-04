@@ -1,0 +1,43 @@
+{
+  "name": "teamwork-novel",
+  "description": "A novel co-authored with an algorithm.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dariusk/teamwork",
+  "author": {
+    "name": "Darius Kazemi",
+    "email": "darius.kazemi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dariusk/teamwork.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dariusk/teamwork/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dariusk/teamwork/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.1.2"
+  },
+  "dependencies": {
+    "cheerio": "~0.12.2",
+    "ent": "2.2.0",
+    "gutencorpus": "^0.1.2",
+    "inquirer": "^0.11.0",
+    "request": "~2.44.0",
+    "rita": "~1.1.0",
+    "twit": "~1.1.19",
+    "underscore": "~1.8.0",
+    "wordfilter": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-notify": "~0.4.0"
+  },
+  "keywords": []
+}
