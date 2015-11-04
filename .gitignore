@@ -1,0 +1,4 @@
+*.doc2vec
+*.npy
+aclImdb*
+nohup*
